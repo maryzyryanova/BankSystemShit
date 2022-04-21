@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19455" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19455"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SendTransactionWindow" customModule="BankSystem" customModuleProvider="target">
+            <connections>
+                <outlet property="accountCB" destination="O3g-2p-OR8" id="FeZ-aH-RPq"/>
+                <outlet property="sumTF" destination="Vkz-A1-rNf" id="ibe-QA-GZ0"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <comboBox verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O3g-2p-OR8">
+                    <rect key="frame" x="50" y="107" width="304" height="25"/>
+                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="center" placeholderString="From account" drawsBackground="YES" completes="NO" usesDataSource="YES" numberOfVisibleItems="5" id="dHA-iF-r45">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </comboBoxCell>
+                </comboBox>
+                <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vkz-A1-rNf">
+                    <rect key="frame" x="50" y="82" width="301" height="21"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="center" placeholderString="Sum" drawsBackground="YES" id="NvG-rC-o67">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Jq8-32-ocA">
+                    <rect key="frame" x="168" y="47" width="65" height="32"/>
+                    <buttonCell key="cell" type="push" title="Send" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="IHG-v7-dbN">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="sendClicked:" target="-2" id="r5i-uY-iWd"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gpG-wv-Fpj">
+                    <rect key="frame" x="163" y="15" width="75" height="32"/>
+                    <buttonCell key="cell" type="push" title="Return" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="l5m-Sc-5S9">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="returnClicked:" target="-2" id="bMP-1C-dkH"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="O3g-2p-OR8" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="0fh-Hn-Wi8"/>
+                <constraint firstItem="Jq8-32-ocA" firstAttribute="centerX" secondItem="gpG-wv-Fpj" secondAttribute="centerX" id="0xG-Jt-4wT"/>
+                <constraint firstItem="Vkz-A1-rNf" firstAttribute="top" secondItem="O3g-2p-OR8" secondAttribute="bottom" constant="8" symbolic="YES" id="AzM-eU-fMd"/>
+                <constraint firstItem="O3g-2p-OR8" firstAttribute="leading" secondItem="Vkz-A1-rNf" secondAttribute="leading" id="R0B-jx-Ku7"/>
+                <constraint firstItem="O3g-2p-OR8" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" symbolic="YES" id="VtQ-AV-0Sa"/>
+                <constraint firstItem="Jq8-32-ocA" firstAttribute="top" secondItem="Vkz-A1-rNf" secondAttribute="bottom" constant="8" symbolic="YES" id="adh-lW-tZ1"/>
+                <constraint firstItem="O3g-2p-OR8" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="50" id="fAQ-mz-7EW"/>
+                <constraint firstItem="Vkz-A1-rNf" firstAttribute="centerX" secondItem="Jq8-32-ocA" secondAttribute="centerX" id="fSZ-WA-h3U"/>
+                <constraint firstItem="gpG-wv-Fpj" firstAttribute="top" secondItem="Jq8-32-ocA" secondAttribute="bottom" constant="12" symbolic="YES" id="vxJ-n5-74N"/>
+                <constraint firstItem="O3g-2p-OR8" firstAttribute="trailing" secondItem="Vkz-A1-rNf" secondAttribute="trailing" id="yz6-pn-A0h"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="121"/>
+        </customView>
+    </objects>
+</document>

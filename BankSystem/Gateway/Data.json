@@ -1,0 +1,1817 @@
+{
+  "banks": [
+    {
+      "type": "ОАО",
+      "name": "Приорбанк",
+      "unp": "B100220190",
+      "bik": "PJCBBY2X",
+      "adress": "г. Минск, ул. Веры Хоружей, 31А",
+      "clients": [
+        {
+          "login": "client1",
+          "password": "client1",
+          "name": "Client 1",
+          "passportData": "AQJEQ1FPJ",
+          "passportId": "84OOTFAVRE0H1M",
+          "phone": "+375292519513",
+          "email": "BK3QL7Q@gmail.com",
+          "credits": [
+            {
+              "id": "130ef99f-3a2a-472b-a413-7dc333973f83",
+              "sum": 12485.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "130ef99f-3a2a-472b-a413-7dc333973f83",
+              "price": 36413.0,
+              "payed": 0.0,
+              "condition": "6 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "ed4dca9d-316f-4efa-a462-b7f60e8e28f8",
+              "balance": 2443.0,
+              "status": "InUse"
+            },
+            {
+              "id": "d4b69ce0-a5c7-4ab5-906d-526c4097c2a6",
+              "balance": 5146.0,
+              "status": "InUse"
+            },
+            {
+              "id": "97b8422f-c0c1-4f04-9bff-4a0b17e4ae2b",
+              "balance": 3584.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client2",
+          "password": "client2",
+          "name": "Client 2",
+          "passportData": "WIUBE4U0Y",
+          "passportId": "971W630YKJZIDZ",
+          "phone": "+375292023247",
+          "email": "50JEH4X@gmail.com",
+          "credits": [
+            {
+              "id": "6dae0c2b-7e3a-4746-a07d-043e80bfe047",
+              "sum": 48139.0,
+              "payed": 0.0,
+              "condition": "6 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "6dae0c2b-7e3a-4746-a07d-043e80bfe047",
+              "price": 35217.0,
+              "payed": 0.0,
+              "condition": "6 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "ce1d8b05-d1f1-4de2-8bc8-32d7de227a20",
+              "balance": 3654.0,
+              "status": "InUse"
+            },
+            {
+              "id": "fa603b66-a840-494e-9b54-0f2fefca6e75",
+              "balance": 733.0,
+              "status": "InUse"
+            },
+            {
+              "id": "c2307140-3770-4460-91ad-ffdd03422482",
+              "balance": 6114.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client3",
+          "password": "client3",
+          "name": "Client 3",
+          "passportData": "L3R3MV4NO",
+          "passportId": "KQ43E2PEQHTEFC",
+          "phone": "+375294777284",
+          "email": "IHSSZK5@gmail.com",
+          "credits": [
+            {
+              "id": "2c59d764-9f21-49da-8232-a2af383cadd6",
+              "sum": 7447.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "2c59d764-9f21-49da-8232-a2af383cadd6",
+              "price": 33193.0,
+              "payed": 0.0,
+              "condition": "3 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "c5b2054e-f2b0-41b7-8570-ac4977226dc3",
+              "balance": 5550.0,
+              "status": "InUse"
+            },
+            {
+              "id": "11a8dab8-0fbe-4fec-be35-3cbd6993e372",
+              "balance": 1143.0,
+              "status": "InUse"
+            },
+            {
+              "id": "527e0897-76bd-4d23-b378-8fb9fde1d8a9",
+              "balance": 5052.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client4",
+          "password": "client4",
+          "name": "Client 4",
+          "passportData": "0M6AYDK3U",
+          "passportId": "H6L68JNKVCKEYA",
+          "phone": "+375292512408",
+          "email": "KSF0JW3@gmail.com",
+          "credits": [
+            {
+              "id": "4d2d082e-1cc3-4cec-8505-55f2b969879f",
+              "sum": 32652.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "4d2d082e-1cc3-4cec-8505-55f2b969879f",
+              "price": 7542.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "7af8b0f4-9fb8-4d6b-b232-342dd6d50589",
+              "balance": 7648.0,
+              "status": "InUse"
+            },
+            {
+              "id": "b3768448-ad29-4cbb-a2a0-369a923cd561",
+              "balance": 3047.0,
+              "status": "InUse"
+            },
+            {
+              "id": "dd52cdcd-00d7-4cc4-9101-2c4a043955b0",
+              "balance": 231.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client5",
+          "password": "client5",
+          "name": "Client 5",
+          "passportData": "DECTUD83P",
+          "passportId": "YFL69X3JE83I6X",
+          "phone": "+375297371926",
+          "email": "A0CMVST@gmail.com",
+          "credits": [
+            {
+              "id": "f1513080-c473-42c3-ba26-068577ade658",
+              "sum": 31465.0,
+              "payed": 0.0,
+              "condition": "3 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "f1513080-c473-42c3-ba26-068577ade658",
+              "price": 39759.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "99e3960d-231f-491b-b0f5-10deed0346a7",
+              "balance": 6947.0,
+              "status": "InUse"
+            },
+            {
+              "id": "44318c6c-8c9e-4176-8f52-22a8f577f3dd",
+              "balance": 7206.0,
+              "status": "InUse"
+            },
+            {
+              "id": "5b66d9c0-d9c4-4f0f-b349-5da21065e082",
+              "balance": 3025.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client6",
+          "password": "client6",
+          "name": "Client 6",
+          "passportData": "NBH0E1JNO",
+          "passportId": "GPQFNF31AWZ5WK",
+          "phone": "+375294831679",
+          "email": "2VGRC2R@gmail.com",
+          "credits": [
+            {
+              "id": "52e8fb40-d3a2-4622-b042-20409ced28a9",
+              "sum": 49375.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "52e8fb40-d3a2-4622-b042-20409ced28a9",
+              "price": 28656.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "d4918634-02de-4092-80fa-e17d2fb01e04",
+              "balance": 7047.0,
+              "status": "InUse"
+            },
+            {
+              "id": "0778a1a6-0e1c-47de-bed3-997bbea8e75d",
+              "balance": 7892.0,
+              "status": "InUse"
+            },
+            {
+              "id": "56046e5d-2446-4d5b-8b5c-16f8b182f726",
+              "balance": 3783.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client7",
+          "password": "client7",
+          "name": "Client 7",
+          "passportData": "0NK6LDEG5",
+          "passportId": "6U602O11J46KM8",
+          "phone": "+375291063733",
+          "email": "3X01OE7@gmail.com",
+          "credits": [
+            {
+              "id": "eea83240-e8c6-4477-84aa-7229c01fb4a2",
+              "sum": 39036.0,
+              "payed": 0.0,
+              "condition": "6 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "eea83240-e8c6-4477-84aa-7229c01fb4a2",
+              "price": 19183.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "8aff94bb-199d-4da7-9489-6a5dd7f4b48e",
+              "balance": 3908.0,
+              "status": "InUse"
+            },
+            {
+              "id": "b25d6ad5-4027-4d93-ad71-ee3ad258cb6f",
+              "balance": 3645.0,
+              "status": "InUse"
+            },
+            {
+              "id": "e52156b7-df0f-4c05-9214-cc4455a73228",
+              "balance": 3928.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client8",
+          "password": "client8",
+          "name": "Client 8",
+          "passportData": "JGU6PBGJB",
+          "passportId": "BZVE0E96RO4PIH",
+          "phone": "+375296305847",
+          "email": "5HOORIV@gmail.com",
+          "credits": [
+            {
+              "id": "d5c4d86b-fbb1-4e4b-a4fa-386a1f7e1cfe",
+              "sum": 31704.0,
+              "payed": 0.0,
+              "condition": "3 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "d5c4d86b-fbb1-4e4b-a4fa-386a1f7e1cfe",
+              "price": 43472.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "846e7131-8c5a-4900-b0b9-40dde97587b1",
+              "balance": 1150.0,
+              "status": "InUse"
+            },
+            {
+              "id": "c8577171-f62d-45a0-b8fa-fe73df117e24",
+              "balance": 9491.0,
+              "status": "InUse"
+            },
+            {
+              "id": "92822f47-29c8-4903-8158-bb2567822967",
+              "balance": 6545.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client9",
+          "password": "client9",
+          "name": "Client 9",
+          "passportData": "MZB7WNM3N",
+          "passportId": "MUSI3HYHIYY4JA",
+          "phone": "+375292451342",
+          "email": "JSB9YZA@gmail.com",
+          "credits": [
+            {
+              "id": "9ee443de-ea12-4ede-994b-e29d4eb7b230",
+              "sum": 1788.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "9ee443de-ea12-4ede-994b-e29d4eb7b230",
+              "price": 31315.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "506559fc-8a96-4fd9-ac52-ea5b5153e44e",
+              "balance": 93.0,
+              "status": "InUse"
+            },
+            {
+              "id": "0e2e7aa4-7720-4220-9a4b-ac92f5814505",
+              "balance": 3322.0,
+              "status": "InUse"
+            },
+            {
+              "id": "e4647f95-f57e-4d8b-9344-59fbe36f7fcf",
+              "balance": 8044.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client10",
+          "password": "client10",
+          "name": "Client 10",
+          "passportData": "XYAQY9THE",
+          "passportId": "1WCDBJ7AOYSHG3",
+          "phone": "+375296313275",
+          "email": "U0DZ1PV@gmail.com",
+          "credits": [
+            {
+              "id": "7f1c0986-529a-4cc2-a4ff-1e30921142df",
+              "sum": 46009.0,
+              "payed": 0.0,
+              "condition": "6 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "7f1c0986-529a-4cc2-a4ff-1e30921142df",
+              "price": 10796.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "4b7d7d92-98b6-431d-97d5-3cee71a41de8",
+              "balance": 7286.0,
+              "status": "InUse"
+            },
+            {
+              "id": "b09eb202-d4c5-4618-bd21-cfd9a98dad3c",
+              "balance": 3531.0,
+              "status": "InUse"
+            },
+            {
+              "id": "a201142f-ec1b-41d3-9ab4-0e9fa9b35af3",
+              "balance": 3301.0,
+              "status": "InUse"
+            }
+          ]
+        }
+      ],
+      "managers": [
+        {
+          "login": "manager1",
+          "password": "manager1"
+        },
+        {
+          "login": "manager2",
+          "password": "manager2"
+        },
+        {
+          "login": "manager3",
+          "password": "manager3"
+        }
+      ],
+      "operators": [
+        {
+          "login": "operator1",
+          "password": "operator1"
+        },
+        {
+          "login": "operator2",
+          "password": "operator2"
+        },
+        {
+          "login": "operator3",
+          "password": "operator3"
+        }
+      ],
+      "companies": [
+        {
+          "type": "IP",
+          "name": "Company1",
+          "unp": "501304861",
+          "bik": "PJCBBY2X",
+          "adress": "OXDNY6R1EHF9D7B1F8AV",
+          "specialists": [
+            {
+              "login": "Company1_manager_1",
+              "password": "Company1_manager_1"
+            },
+            {
+              "login": "Company1_manager_2",
+              "password": "Company1_manager_2"
+            },
+            {
+              "login": "Company1_manager_3",
+              "password": "Company1_manager_3"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "69e5cae0-c6f1-4cce-a224-7c1c0d41342d",
+              "balance": 5373.0,
+              "status": "InUse"
+            },
+            {
+              "id": "46347cbc-51a1-4557-9cee-d49e17fc24c6",
+              "balance": 8526.0,
+              "status": "InUse"
+            },
+            {
+              "id": "0be376d5-d957-49ef-95ba-075b88bfbbac",
+              "balance": 1360.0,
+              "status": "InUse"
+            }
+          ],
+          "salaryProjects": [
+            {
+              "title": "Klerk1",
+              "description": "Salary project for klerks of company Company1",
+              "sum": 999.0
+            }
+          ]
+        },
+        {
+          "type": "IP",
+          "name": "Company2",
+          "unp": "920782605",
+          "bik": "PJCBBY2X",
+          "adress": "BUAH2R5QZVK12TM990MN",
+          "specialists": [
+            {
+              "login": "Company2_manager_1",
+              "password": "Company2_manager_1"
+            },
+            {
+              "login": "Company2_manager_2",
+              "password": "Company2_manager_2"
+            },
+            {
+              "login": "Company2_manager_3",
+              "password": "Company2_manager_3"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "534d249e-a9b4-4ba9-829e-b42a74b09b55",
+              "balance": 4917.0,
+              "status": "InUse"
+            },
+            {
+              "id": "8b6a24eb-3227-49d5-b86a-4b833de1057e",
+              "balance": 2394.0,
+              "status": "InUse"
+            },
+            {
+              "id": "e6ec0b95-8cd3-4360-9c4c-bd6862130643",
+              "balance": 7676.0,
+              "status": "InUse"
+            }
+          ],
+          "salaryProjects": [
+            {
+              "title": "Klerk2",
+              "description": "Salary project for klerks of company Company2",
+              "sum": 985.0
+            }
+          ]
+        },
+        {
+          "type": "IP",
+          "name": "Company3",
+          "unp": "699457259",
+          "bik": "PJCBBY2X",
+          "adress": "PIJQMHC5S97013T4W6VH",
+          "specialists": [
+            {
+              "login": "Company3_manager_1",
+              "password": "Company3_manager_1"
+            },
+            {
+              "login": "Company3_manager_2",
+              "password": "Company3_manager_2"
+            },
+            {
+              "login": "Company3_manager_3",
+              "password": "Company3_manager_3"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "ad558adf-4cdc-448b-ac20-5ba0a7d2a72a",
+              "balance": 1633.0,
+              "status": "InUse"
+            },
+            {
+              "id": "a108b839-e21f-4b36-99fa-7d4d40ce0918",
+              "balance": 2244.0,
+              "status": "InUse"
+            },
+            {
+              "id": "cd8379e8-6704-4d88-af1d-343443b00cbf",
+              "balance": 198.0,
+              "status": "InUse"
+            }
+          ],
+          "salaryProjects": [
+            {
+              "title": "Klerk3",
+              "description": "Salary project for klerks of company Company3",
+              "sum": 628.0
+            }
+          ]
+        }
+      ],
+      "admins": [
+        {
+          "login": "admin1",
+          "password": "admin1"
+        },
+        {
+          "login": "admin2",
+          "password": "admin2"
+        }
+      ]
+    },
+    {
+      "type": "ЗАО",
+      "name": "АльфаБанк",
+      "unp": "B101541947",
+      "bik": "ALFABY2X",
+      "adress": "г. Минск, ул. Сурганова, 43-47",
+      "clients": [
+        {
+          "login": "client1",
+          "password": "client1",
+          "name": "Client 1",
+          "passportData": "W3YJEQZH2",
+          "passportId": "EQGBM3TXOYHRNU",
+          "phone": "+375299235535",
+          "email": "8PDTA3B@gmail.com",
+          "credits": [
+            {
+              "id": "3ac0a466-6c89-4552-bc1c-57820245dc51",
+              "sum": 21265.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "3ac0a466-6c89-4552-bc1c-57820245dc51",
+              "price": 19323.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "a0082225-73ad-4144-b9d2-0971bb5df8d0",
+              "balance": 9450.0,
+              "status": "InUse"
+            },
+            {
+              "id": "06b5164c-aad7-4b3a-beb0-cbe7af66170f",
+              "balance": 6112.0,
+              "status": "InUse"
+            },
+            {
+              "id": "c51f86ac-9a77-4ded-8ddc-6bc828db1b0a",
+              "balance": 6900.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client2",
+          "password": "client2",
+          "name": "Client 2",
+          "passportData": "0I7T4IVI2",
+          "passportId": "G9BOOVT7P1UWLC",
+          "phone": "+375291091878",
+          "email": "5UII03A@gmail.com",
+          "credits": [
+            {
+              "id": "03c0323c-2534-4761-82ea-dc3ed35e370a",
+              "sum": 18435.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "03c0323c-2534-4761-82ea-dc3ed35e370a",
+              "price": 46128.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "c635abf6-ff55-4091-8be3-5606caa6f96b",
+              "balance": 5705.0,
+              "status": "InUse"
+            },
+            {
+              "id": "9d1b70ca-f1fb-4f32-9741-0e8435cd08de",
+              "balance": 6203.0,
+              "status": "InUse"
+            },
+            {
+              "id": "336dbe51-dfc5-431c-ac27-49999303ae25",
+              "balance": 3148.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client3",
+          "password": "client3",
+          "name": "Client 3",
+          "passportData": "6ZN0NHJSR",
+          "passportId": "V8PVSIP9GM6GEI",
+          "phone": "+375297162971",
+          "email": "JPPGB8V@gmail.com",
+          "credits": [
+            {
+              "id": "1139e9af-2e0f-446d-b723-8fb54871b2b7",
+              "sum": 4378.0,
+              "payed": 0.0,
+              "condition": "3 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "1139e9af-2e0f-446d-b723-8fb54871b2b7",
+              "price": 49037.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "0b5b7c48-8dc8-40c2-865e-65f7b188c200",
+              "balance": 1226.0,
+              "status": "InUse"
+            },
+            {
+              "id": "84e6ac9c-0fff-4be9-9a1d-79fc2ca859b6",
+              "balance": 1530.0,
+              "status": "InUse"
+            },
+            {
+              "id": "f4e9b15d-bb60-4045-807d-5809c0ea9b46",
+              "balance": 2526.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client4",
+          "password": "client4",
+          "name": "Client 4",
+          "passportData": "95O1JJYYA",
+          "passportId": "NJP7GWGZTXFJBN",
+          "phone": "+375299108431",
+          "email": "742QEL8@gmail.com",
+          "credits": [
+            {
+              "id": "93a5becf-fc12-48dc-a2c6-87515f873fe5",
+              "sum": 39742.0,
+              "payed": 0.0,
+              "condition": "6 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "93a5becf-fc12-48dc-a2c6-87515f873fe5",
+              "price": 36817.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "aa057380-8389-49fa-a243-75d403858022",
+              "balance": 4216.0,
+              "status": "InUse"
+            },
+            {
+              "id": "7fdcde60-b588-4727-8cea-fadcb8cc4af9",
+              "balance": 9315.0,
+              "status": "InUse"
+            },
+            {
+              "id": "0214fc58-2899-4967-843c-e735b9d65610",
+              "balance": 5818.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client5",
+          "password": "client5",
+          "name": "Client 5",
+          "passportData": "BIT6VCB3I",
+          "passportId": "81LF8W1GCWI0WN",
+          "phone": "+375295614006",
+          "email": "3L8SR7R@gmail.com",
+          "credits": [
+            {
+              "id": "4f6b872e-7420-4ecc-898f-f79cf8a83c51",
+              "sum": 7867.0,
+              "payed": 0.0,
+              "condition": "6 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "4f6b872e-7420-4ecc-898f-f79cf8a83c51",
+              "price": 45168.0,
+              "payed": 0.0,
+              "condition": "3 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "b4adc2a2-ef7c-4fe5-bb94-3425e0b430b1",
+              "balance": 5885.0,
+              "status": "InUse"
+            },
+            {
+              "id": "701b1b27-fa72-479c-bfb5-7191c0e59079",
+              "balance": 5828.0,
+              "status": "InUse"
+            },
+            {
+              "id": "06baa655-a183-4e4f-a52c-e9c0d13a298b",
+              "balance": 5446.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client6",
+          "password": "client6",
+          "name": "Client 6",
+          "passportData": "2TNCMB6BU",
+          "passportId": "TF5LZO85OKCWOR",
+          "phone": "+375293982666",
+          "email": "CHO4ZUX@gmail.com",
+          "credits": [
+            {
+              "id": "2e05702f-a29b-4f9e-a7c1-1e068d902de7",
+              "sum": 38617.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "2e05702f-a29b-4f9e-a7c1-1e068d902de7",
+              "price": 18749.0,
+              "payed": 0.0,
+              "condition": "3 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "14bcfa9c-6446-4aea-ae85-230086f53035",
+              "balance": 3868.0,
+              "status": "InUse"
+            },
+            {
+              "id": "0347fcf8-f648-4581-bd8f-929a4323637a",
+              "balance": 4476.0,
+              "status": "InUse"
+            },
+            {
+              "id": "53f289e1-3b7c-4fec-8731-13af1444f0d4",
+              "balance": 5045.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client7",
+          "password": "client7",
+          "name": "Client 7",
+          "passportData": "UU61FH8DW",
+          "passportId": "V5ERDD4LYONCDG",
+          "phone": "+375299861646",
+          "email": "45OCK48@gmail.com",
+          "credits": [
+            {
+              "id": "5ad32017-afa5-4797-9cda-a5d4aad6f62b",
+              "sum": 9419.0,
+              "payed": 0.0,
+              "condition": "6 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "5ad32017-afa5-4797-9cda-a5d4aad6f62b",
+              "price": 20306.0,
+              "payed": 0.0,
+              "condition": "3 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "9fe542e3-a00f-4cbc-8186-10ff48715363",
+              "balance": 2071.0,
+              "status": "InUse"
+            },
+            {
+              "id": "e2330670-36b6-4247-91b0-0662a63c1068",
+              "balance": 7122.0,
+              "status": "InUse"
+            },
+            {
+              "id": "32acc798-ec90-440d-864c-701ab98fa746",
+              "balance": 166.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client8",
+          "password": "client8",
+          "name": "Client 8",
+          "passportData": "GGR79V9TT",
+          "passportId": "HA22YHR7O9NCGL",
+          "phone": "+375293070029",
+          "email": "HVQNB61@gmail.com",
+          "credits": [
+            {
+              "id": "7a4a651c-8662-4e07-94cd-0dcfea6919cb",
+              "sum": 5654.0,
+              "payed": 0.0,
+              "condition": "3 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "7a4a651c-8662-4e07-94cd-0dcfea6919cb",
+              "price": 27909.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "0c528bc1-e75e-4088-ab55-612b35e93ccf",
+              "balance": 4554.0,
+              "status": "InUse"
+            },
+            {
+              "id": "2440491a-23a5-486c-858a-c0b6d895898e",
+              "balance": 1006.0,
+              "status": "InUse"
+            },
+            {
+              "id": "1e603c78-d12f-40c7-b003-ae8e7717dd59",
+              "balance": 6232.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client9",
+          "password": "client9",
+          "name": "Client 9",
+          "passportData": "FXJXPZXUD",
+          "passportId": "R52EHMJLRXNQXL",
+          "phone": "+375293782927",
+          "email": "R595KLT@gmail.com",
+          "credits": [
+            {
+              "id": "d7508f26-2fd9-4912-88dc-cd7ce90bb6ed",
+              "sum": 49356.0,
+              "payed": 0.0,
+              "condition": "3 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "d7508f26-2fd9-4912-88dc-cd7ce90bb6ed",
+              "price": 35055.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "d6deb35b-ce8f-415c-b719-6a14039f5f08",
+              "balance": 2615.0,
+              "status": "InUse"
+            },
+            {
+              "id": "1aaa0e7b-44f7-40d0-8507-788c7a183852",
+              "balance": 3555.0,
+              "status": "InUse"
+            },
+            {
+              "id": "eb72a62d-69a2-4327-86df-13ebb0c2ca92",
+              "balance": 416.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client10",
+          "password": "client10",
+          "name": "Client 10",
+          "passportData": "H8X2CNTEJ",
+          "passportId": "S4MLRSKBD4LF6N",
+          "phone": "+375294429852",
+          "email": "SKRL21P@gmail.com",
+          "credits": [
+            {
+              "id": "7cbdd03c-bf98-4c1d-af90-f4b7788a2095",
+              "sum": 16017.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "7cbdd03c-bf98-4c1d-af90-f4b7788a2095",
+              "price": 22997.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "a68c26d3-77bf-4ae4-b39e-66899fff21f5",
+              "balance": 594.0,
+              "status": "InUse"
+            },
+            {
+              "id": "8e53f523-df79-49cb-9973-f0b722058da3",
+              "balance": 2096.0,
+              "status": "InUse"
+            },
+            {
+              "id": "78759185-6aaf-4f37-9dba-e38b68eef94f",
+              "balance": 6979.0,
+              "status": "InUse"
+            }
+          ]
+        }
+      ],
+      "managers": [
+        {
+          "login": "manager1",
+          "password": "manager1"
+        },
+        {
+          "login": "manager2",
+          "password": "manager2"
+        },
+        {
+          "login": "manager3",
+          "password": "manager3"
+        }
+      ],
+      "operators": [
+        {
+          "login": "operator1",
+          "password": "operator1"
+        },
+        {
+          "login": "operator2",
+          "password": "operator2"
+        },
+        {
+          "login": "operator3",
+          "password": "operator3"
+        }
+      ],
+      "companies": [
+        {
+          "type": "IP",
+          "name": "Company1",
+          "unp": "139641839",
+          "bik": "ALFABY2X",
+          "adress": "PAB82I6YOH1LFEVQGX35",
+          "specialists": [
+            {
+              "login": "Company1_manager_1",
+              "password": "Company1_manager_1"
+            },
+            {
+              "login": "Company1_manager_2",
+              "password": "Company1_manager_2"
+            },
+            {
+              "login": "Company1_manager_3",
+              "password": "Company1_manager_3"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "6908733f-51f9-4e65-8476-cb5ee8c4aae4",
+              "balance": 9258.0,
+              "status": "InUse"
+            },
+            {
+              "id": "75818a57-cd8e-41f1-a637-7f72721d5433",
+              "balance": 7610.0,
+              "status": "InUse"
+            },
+            {
+              "id": "006fba1a-fec3-48c3-91ad-790fda9b7945",
+              "balance": 1434.0,
+              "status": "InUse"
+            }
+          ],
+          "salaryProjects": [
+            {
+              "title": "Klerk1",
+              "description": "Salary project for klerks of company Company1",
+              "sum": 895.0
+            }
+          ]
+        },
+        {
+          "type": "IP",
+          "name": "Company2",
+          "unp": "101602269",
+          "bik": "ALFABY2X",
+          "adress": "4FLL50VDAFDLV7MQ9AVR",
+          "specialists": [
+            {
+              "login": "Company2_manager_1",
+              "password": "Company2_manager_1"
+            },
+            {
+              "login": "Company2_manager_2",
+              "password": "Company2_manager_2"
+            },
+            {
+              "login": "Company2_manager_3",
+              "password": "Company2_manager_3"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "31f79dae-16da-4ddf-a640-f9917dfbc791",
+              "balance": 7360.0,
+              "status": "InUse"
+            },
+            {
+              "id": "d8d39b01-de26-4f35-9dce-1355ee98678b",
+              "balance": 7879.0,
+              "status": "InUse"
+            },
+            {
+              "id": "a2ece3ae-b584-4b0e-a77d-09f83b850001",
+              "balance": 8076.0,
+              "status": "InUse"
+            }
+          ],
+          "salaryProjects": [
+            {
+              "title": "Klerk2",
+              "description": "Salary project for klerks of company Company2",
+              "sum": 586.0
+            }
+          ]
+        },
+        {
+          "type": "IP",
+          "name": "Company3",
+          "unp": "191105880",
+          "bik": "ALFABY2X",
+          "adress": "BKR7WYJHTCZ91VEKZ0DB",
+          "specialists": [
+            {
+              "login": "Company3_manager_1",
+              "password": "Company3_manager_1"
+            },
+            {
+              "login": "Company3_manager_2",
+              "password": "Company3_manager_2"
+            },
+            {
+              "login": "Company3_manager_3",
+              "password": "Company3_manager_3"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "9df525d7-a84f-495a-925b-244e17631472",
+              "balance": 3649.0,
+              "status": "InUse"
+            },
+            {
+              "id": "f2b3f966-bd20-4d50-8571-e49b0310c2ff",
+              "balance": 5091.0,
+              "status": "InUse"
+            },
+            {
+              "id": "4ed84524-66e3-448d-8de4-288b69dea5fa",
+              "balance": 5863.0,
+              "status": "InUse"
+            }
+          ],
+          "salaryProjects": [
+            {
+              "title": "Klerk3",
+              "description": "Salary project for klerks of company Company3",
+              "sum": 882.0
+            }
+          ]
+        }
+      ],
+      "admins": [
+        {
+          "login": "admin1",
+          "password": "admin1"
+        },
+        {
+          "login": "admin2",
+          "password": "admin2"
+        }
+      ]
+    },
+    {
+      "type": "ОАО",
+      "name": "СтатусБанк",
+      "unp": "B807000043",
+      "bik": "IRJSBY22",
+      "adress": "г. Минск, ул. Денисовская 8А",
+      "clients": [
+        {
+          "login": "client1",
+          "password": "client1",
+          "name": "Client 1",
+          "passportData": "ABCS7NHUU",
+          "passportId": "C2PVWF2KU4UO97",
+          "phone": "+375296156492",
+          "email": "ZYTA89S@gmail.com",
+          "credits": [
+            {
+              "id": "0de2ec74-ea20-495a-9cdf-11bbd56eb40e",
+              "sum": 48252.0,
+              "payed": 0.0,
+              "condition": "3 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "0de2ec74-ea20-495a-9cdf-11bbd56eb40e",
+              "price": 38940.0,
+              "payed": 0.0,
+              "condition": "3 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "b94d4975-bbf0-447b-a29b-92d75cad4ed1",
+              "balance": 5014.0,
+              "status": "InUse"
+            },
+            {
+              "id": "642f4557-8d58-445c-82f1-8ed718aee739",
+              "balance": 2221.0,
+              "status": "InUse"
+            },
+            {
+              "id": "1bb6aaaa-6be1-4bba-9e74-8befecb157d3",
+              "balance": 2002.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client2",
+          "password": "client2",
+          "name": "Client 2",
+          "passportData": "MCFFNNG0S",
+          "passportId": "9ASLQHRFEX1TCB",
+          "phone": "+375297191472",
+          "email": "A2AEM4O@gmail.com",
+          "credits": [
+            {
+              "id": "b53de0d8-f77d-4e8d-9c16-51aa057a781f",
+              "sum": 11720.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "b53de0d8-f77d-4e8d-9c16-51aa057a781f",
+              "price": 25422.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "182accf1-5025-4fee-b34b-e50c836e0645",
+              "balance": 7797.0,
+              "status": "InUse"
+            },
+            {
+              "id": "008fae87-22ab-4895-b658-dec94f2976dc",
+              "balance": 2110.0,
+              "status": "InUse"
+            },
+            {
+              "id": "0c89c6c5-335c-42d1-9c6c-15ac88f69aad",
+              "balance": 5087.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client3",
+          "password": "client3",
+          "name": "Client 3",
+          "passportData": "MJUBZZKQJ",
+          "passportId": "1WTB4U6YRSGO5K",
+          "phone": "+375291517760",
+          "email": "I9KBEMM@gmail.com",
+          "credits": [
+            {
+              "id": "d5068f65-bbf4-4891-9bd4-a56e1639ca34",
+              "sum": 33403.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "d5068f65-bbf4-4891-9bd4-a56e1639ca34",
+              "price": 6221.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "8abc8ebb-ad06-4096-a1fe-8b8e360d454f",
+              "balance": 3475.0,
+              "status": "InUse"
+            },
+            {
+              "id": "4aa427bf-5ee9-44c3-93d1-51d962bd00ff",
+              "balance": 8173.0,
+              "status": "InUse"
+            },
+            {
+              "id": "f60d0b40-16ca-43e2-a92c-9da0386cbb98",
+              "balance": 6845.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client4",
+          "password": "client4",
+          "name": "Client 4",
+          "passportData": "J36EW07J0",
+          "passportId": "RHZ46F9AGP5LW4",
+          "phone": "+375291453511",
+          "email": "Y9R8MCP@gmail.com",
+          "credits": [
+            {
+              "id": "4da81bc5-5dd9-4c6d-86e5-da6f335e401a",
+              "sum": 7499.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "4da81bc5-5dd9-4c6d-86e5-da6f335e401a",
+              "price": 41194.0,
+              "payed": 0.0,
+              "condition": "6 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "d055d579-5a15-4995-8798-9d6fad4b8753",
+              "balance": 4032.0,
+              "status": "InUse"
+            },
+            {
+              "id": "1311ec12-4cfe-43ee-9316-6396b5e19945",
+              "balance": 7403.0,
+              "status": "InUse"
+            },
+            {
+              "id": "fe7c055a-643e-4db2-975b-197f364d7db7",
+              "balance": 4407.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client5",
+          "password": "client5",
+          "name": "Client 5",
+          "passportData": "YFD6S2X6I",
+          "passportId": "39P0A8YAOC9J4Z",
+          "phone": "+375297338777",
+          "email": "RBW9IEF@gmail.com",
+          "credits": [
+            {
+              "id": "928bdd5d-c28e-4edc-a21c-46c91a7ee76f",
+              "sum": 41080.0,
+              "payed": 0.0,
+              "condition": "3 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "928bdd5d-c28e-4edc-a21c-46c91a7ee76f",
+              "price": 24713.0,
+              "payed": 0.0,
+              "condition": "3 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "ebf126f3-5b30-4581-8a2f-1e05c31d7185",
+              "balance": 1797.0,
+              "status": "InUse"
+            },
+            {
+              "id": "50534af4-e8b5-4022-9533-beed315db538",
+              "balance": 9293.0,
+              "status": "InUse"
+            },
+            {
+              "id": "44bdf8d0-e170-4343-8856-15237f50a3f1",
+              "balance": 1835.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client6",
+          "password": "client6",
+          "name": "Client 6",
+          "passportData": "2UGK3CV8N",
+          "passportId": "MLD8V5663ZKQTJ",
+          "phone": "+375299985043",
+          "email": "CG4PV55@gmail.com",
+          "credits": [
+            {
+              "id": "c3ad82e7-21cb-4283-abcb-c99ba5a591f2",
+              "sum": 19279.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "c3ad82e7-21cb-4283-abcb-c99ba5a591f2",
+              "price": 5654.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "2d1fe537-fa0d-48f7-8420-2eead5fa997e",
+              "balance": 7241.0,
+              "status": "InUse"
+            },
+            {
+              "id": "3f82c059-1af1-4d91-be33-5bad97415684",
+              "balance": 5112.0,
+              "status": "InUse"
+            },
+            {
+              "id": "de5a94c4-3dcf-4fa7-b956-e6133401a3aa",
+              "balance": 386.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client7",
+          "password": "client7",
+          "name": "Client 7",
+          "passportData": "2P2CBPIPH",
+          "passportId": "6DCA0XF5DVE0GS",
+          "phone": "+375294014705",
+          "email": "3ZIKDE9@gmail.com",
+          "credits": [
+            {
+              "id": "0c6909af-7068-449c-8278-dcc63b98a2b9",
+              "sum": 37597.0,
+              "payed": 0.0,
+              "condition": "6 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "0c6909af-7068-449c-8278-dcc63b98a2b9",
+              "price": 13114.0,
+              "payed": 0.0,
+              "condition": "6 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "28a96f20-6036-4b59-be74-f638b47ba245",
+              "balance": 1163.0,
+              "status": "InUse"
+            },
+            {
+              "id": "57b97ae1-bbb3-466a-bb34-15f5d0366fbf",
+              "balance": 2950.0,
+              "status": "InUse"
+            },
+            {
+              "id": "e9e111c2-a926-446c-847a-c846484de973",
+              "balance": 8507.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client8",
+          "password": "client8",
+          "name": "Client 8",
+          "passportData": "WACST6L6U",
+          "passportId": "PYQW2HNTTOB8M9",
+          "phone": "+375292486983",
+          "email": "0EW68N2@gmail.com",
+          "credits": [
+            {
+              "id": "035708c6-74a2-4885-b2e8-ecd6e97881e6",
+              "sum": 29650.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "035708c6-74a2-4885-b2e8-ecd6e97881e6",
+              "price": 34836.0,
+              "payed": 0.0,
+              "condition": "6 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "8e77e2d0-7210-4883-80cc-5fdd7859e251",
+              "balance": 6634.0,
+              "status": "InUse"
+            },
+            {
+              "id": "0026e410-0a0a-438e-858d-3331b9fcddb7",
+              "balance": 3960.0,
+              "status": "InUse"
+            },
+            {
+              "id": "676b2632-cdc9-4063-8cbd-4c8d32a62a63",
+              "balance": 6229.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client9",
+          "password": "client9",
+          "name": "Client 9",
+          "passportData": "FELHKC9SG",
+          "passportId": "139TFQKT0VLZ0Y",
+          "phone": "+375294605689",
+          "email": "DBKALN6@gmail.com",
+          "credits": [
+            {
+              "id": "5c636219-a933-4bb1-b404-6fa92763bbca",
+              "sum": 46964.0,
+              "payed": 0.0,
+              "condition": "24 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "5c636219-a933-4bb1-b404-6fa92763bbca",
+              "price": 20483.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "9ccdbf44-4137-4eeb-9f2d-89b5aab20c23",
+              "balance": 2811.0,
+              "status": "InUse"
+            },
+            {
+              "id": "db3f8952-7f42-4cae-821c-4fd423f8c7a2",
+              "balance": 9796.0,
+              "status": "InUse"
+            },
+            {
+              "id": "3e5fb359-58b0-4fc3-8b40-852db4416370",
+              "balance": 7794.0,
+              "status": "InUse"
+            }
+          ]
+        },
+        {
+          "login": "client10",
+          "password": "client10",
+          "name": "Client 10",
+          "passportData": "9NS2KTEOS",
+          "passportId": "FNBMXH824K4DGM",
+          "phone": "+375291051825",
+          "email": "CCOPHG9@gmail.com",
+          "credits": [
+            {
+              "id": "dfe0c73d-4098-425b-8c43-54ffb179238d",
+              "sum": 5615.0,
+              "payed": 0.0,
+              "condition": "3 months"
+            }
+          ],
+          "installments": [
+            {
+              "id": "dfe0c73d-4098-425b-8c43-54ffb179238d",
+              "price": 44653.0,
+              "payed": 0.0,
+              "condition": "12 months"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "d8e2e4f9-daaf-430a-9c56-6f5ac8a608b9",
+              "balance": 8584.0,
+              "status": "InUse"
+            },
+            {
+              "id": "8b0cabd9-e7b2-4bcc-9d5b-bb4f9fd3aa88",
+              "balance": 5544.0,
+              "status": "InUse"
+            },
+            {
+              "id": "62577aeb-8426-4b0b-9374-35ccfd419cd3",
+              "balance": 4906.0,
+              "status": "InUse"
+            }
+          ]
+        }
+      ],
+      "managers": [
+        {
+          "login": "manager1",
+          "password": "manager1"
+        },
+        {
+          "login": "manager2",
+          "password": "manager2"
+        },
+        {
+          "login": "manager3",
+          "password": "manager3"
+        }
+      ],
+      "operators": [
+        {
+          "login": "operator1",
+          "password": "operator1"
+        },
+        {
+          "login": "operator2",
+          "password": "operator2"
+        },
+        {
+          "login": "operator3",
+          "password": "operator3"
+        }
+      ],
+      "companies": [
+        {
+          "type": "IP",
+          "name": "Company1",
+          "unp": "122967432",
+          "bik": "IRJSBY22",
+          "adress": "CYEK1QR156FEHQ7YOB6C",
+          "specialists": [
+            {
+              "login": "Company1_manager_1",
+              "password": "Company1_manager_1"
+            },
+            {
+              "login": "Company1_manager_2",
+              "password": "Company1_manager_2"
+            },
+            {
+              "login": "Company1_manager_3",
+              "password": "Company1_manager_3"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "3f93d661-b425-4d9f-8ca9-a035b826cf7f",
+              "balance": 2305.0,
+              "status": "InUse"
+            },
+            {
+              "id": "05f5c1e6-55d9-4860-83f0-7837b82c7596",
+              "balance": 3646.0,
+              "status": "InUse"
+            },
+            {
+              "id": "dad7bcb6-4cea-4ac6-9321-5fb40a164a31",
+              "balance": 7688.0,
+              "status": "InUse"
+            }
+          ],
+          "salaryProjects": [
+            {
+              "title": "Klerk1",
+              "description": "Salary project for klerks of company Company1",
+              "sum": 676.0
+            }
+          ]
+        },
+        {
+          "type": "IP",
+          "name": "Company2",
+          "unp": "312955152",
+          "bik": "IRJSBY22",
+          "adress": "RFBT33AQZ6E7ISCZ6C61",
+          "specialists": [
+            {
+              "login": "Company2_manager_1",
+              "password": "Company2_manager_1"
+            },
+            {
+              "login": "Company2_manager_2",
+              "password": "Company2_manager_2"
+            },
+            {
+              "login": "Company2_manager_3",
+              "password": "Company2_manager_3"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "4fddc38a-4dde-49b3-a77b-76966a834946",
+              "balance": 8696.0,
+              "status": "InUse"
+            },
+            {
+              "id": "6ae801ba-20a0-4749-9852-de1ec9f4de3f",
+              "balance": 1709.0,
+              "status": "InUse"
+            },
+            {
+              "id": "ff55ce46-5724-4783-a69c-248b704ca8be",
+              "balance": 7451.0,
+              "status": "InUse"
+            }
+          ],
+          "salaryProjects": [
+            {
+              "title": "Klerk2",
+              "description": "Salary project for klerks of company Company2",
+              "sum": 715.0
+            }
+          ]
+        },
+        {
+          "type": "IP",
+          "name": "Company3",
+          "unp": "204405610",
+          "bik": "IRJSBY22",
+          "adress": "RB9NZ895EOAOLES6WVQ8",
+          "specialists": [
+            {
+              "login": "Company3_manager_1",
+              "password": "Company3_manager_1"
+            },
+            {
+              "login": "Company3_manager_2",
+              "password": "Company3_manager_2"
+            },
+            {
+              "login": "Company3_manager_3",
+              "password": "Company3_manager_3"
+            }
+          ],
+          "accounts": [
+            {
+              "id": "6779193c-095d-4e2f-8eb8-b22d125609fa",
+              "balance": 7051.0,
+              "status": "InUse"
+            },
+            {
+              "id": "572683b9-c29a-4de5-8ffd-f8007862dc06",
+              "balance": 758.0,
+              "status": "InUse"
+            },
+            {
+              "id": "288c7e4b-dd9f-4903-972d-87a64b52c135",
+              "balance": 1241.0,
+              "status": "InUse"
+            }
+          ],
+          "salaryProjects": [
+            {
+              "title": "Klerk3",
+              "description": "Salary project for klerks of company Company3",
+              "sum": 798.0
+            }
+          ]
+        }
+      ],
+      "admins": [
+        {
+          "login": "admin1",
+          "password": "admin1"
+        },
+        {
+          "login": "admin2",
+          "password": "admin2"
+        }
+      ]
+    }
+  ]
+}
+

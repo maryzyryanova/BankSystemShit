@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19455" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19455"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SalaryProjectRequestWindow" customModule="BankSystem" customModuleProvider="target">
+            <connections>
+                <outlet property="accountsCB" destination="VMD-1x-a1I" id="BbY-jG-nWq"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView identifier="SalaryProjectRequestWindow" id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <comboBox verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="VMD-1x-a1I">
+                    <rect key="frame" x="68" y="77" width="233" height="25"/>
+                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="center" placeholderString="To account" drawsBackground="YES" completes="NO" usesDataSource="YES" numberOfVisibleItems="5" id="ZWw-F3-2Yn">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </comboBoxCell>
+                </comboBox>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="chc-FU-9V3">
+                    <rect key="frame" x="149" y="34" width="69" height="32"/>
+                    <buttonCell key="cell" type="push" title="Apply" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Rsd-XH-yXj">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="applyClicked:" target="-2" id="Mzs-NL-9z6"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="F5E-Jr-Ajs">
+                    <rect key="frame" x="146" y="2" width="75" height="32"/>
+                    <buttonCell key="cell" type="push" title="Return" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="iYH-DT-x2i">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="returnClicked:" target="-2" id="mE4-2r-VYo"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="chc-FU-9V3" firstAttribute="top" secondItem="VMD-1x-a1I" secondAttribute="bottom" constant="20" symbolic="YES" id="JVm-kJ-nOY"/>
+                <constraint firstItem="VMD-1x-a1I" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" symbolic="YES" id="KO3-HN-QRE"/>
+                <constraint firstItem="VMD-1x-a1I" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="mrD-CJ-u70"/>
+                <constraint firstItem="F5E-Jr-Ajs" firstAttribute="top" secondItem="chc-FU-9V3" secondAttribute="bottom" constant="12" symbolic="YES" id="qkV-xH-4Lm"/>
+                <constraint firstItem="chc-FU-9V3" firstAttribute="centerX" secondItem="F5E-Jr-Ajs" secondAttribute="centerX" id="r2Z-8X-D3i"/>
+                <constraint firstItem="VMD-1x-a1I" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="68" id="s6I-t5-1bz"/>
+                <constraint firstItem="VMD-1x-a1I" firstAttribute="centerX" secondItem="chc-FU-9V3" secondAttribute="centerX" id="uIB-ss-RUT"/>
+            </constraints>
+            <point key="canvasLocation" x="82" y="66.5"/>
+        </customView>
+    </objects>
+</document>

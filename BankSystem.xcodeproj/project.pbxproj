@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A20EEDB28108CC00080A79D /* InstallmentWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20EED928108CC00080A79D /* InstallmentWindow.swift */; };
+		8A20EEDC28108CC00080A79D /* InstallmentWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A20EEDA28108CC00080A79D /* InstallmentWindow.xib */; };
+		8A20EEDE2810D59D0080A79D /* AddSalaryProjectRequestFromClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20EEDD2810D59D0080A79D /* AddSalaryProjectRequestFromClient.swift */; };
+		8A8FB3AB280E9204001B462F /* ClientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FB3AA280E9203001B462F /* ClientModel.swift */; };
+		8A8FB3AD280E9294001B462F /* OperatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FB3AC280E9294001B462F /* OperatorModel.swift */; };
+		8A8FB3B0280E92DE001B462F /* PRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FB3AF280E92DE001B462F /* PRequest.swift */; };
+		8A8FB3B2280E9343001B462F /* ManagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FB3B1280E9343001B462F /* ManagerModel.swift */; };
+		8A8FB3B4280E9399001B462F /* PModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FB3B3280E9399001B462F /* PModel.swift */; };
+		8A8FB3B6280E941E001B462F /* CompanySpecialistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FB3B5280E941E001B462F /* CompanySpecialistModel.swift */; };
+		8A8FB3B8280E9484001B462F /* AdminModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FB3B7280E9484001B462F /* AdminModel.swift */; };
+		8A8FB3BE280E9832001B462F /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FB3BD280E9832001B462F /* LoginModel.swift */; };
+		8A8FB3C1280EA4B3001B462F /* AddAccountRequestFromClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FB3C0280EA4B2001B462F /* AddAccountRequestFromClient.swift */; };
+		8A8FB3C3280EBC21001B462F /* RegistrationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FB3C2280EBC21001B462F /* RegistrationRequest.swift */; };
+		8A8FB3C5280EC1CA001B462F /* CloseAccountRequestFromClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FB3C4280EC1CA001B462F /* CloseAccountRequestFromClient.swift */; };
+		8ABD06E42811347A009B5451 /* SalaryProjectRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD06E328113479009B5451 /* SalaryProjectRequest.swift */; };
+		8ABD06E728113569009B5451 /* SalaryProjectRequestWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD06E528113569009B5451 /* SalaryProjectRequestWindow.swift */; };
+		8ABD06E828113569009B5451 /* SalaryProjectRequestWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ABD06E628113569009B5451 /* SalaryProjectRequestWindow.xib */; };
+		8ABD06EA28113C29009B5451 /* AddAccountRequestFromCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD06E928113C29009B5451 /* AddAccountRequestFromCompany.swift */; };
+		8ABD06EC281140AF009B5451 /* CloseAccountRequestFromCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD06EB281140AF009B5451 /* CloseAccountRequestFromCompany.swift */; };
+		8ABD06EF2811441B009B5451 /* AddSalaryProjectWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD06ED2811441B009B5451 /* AddSalaryProjectWindow.swift */; };
+		8ABD06F02811441B009B5451 /* AddSalaryProjectWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ABD06EE2811441B009B5451 /* AddSalaryProjectWindow.xib */; };
+		8ABD06F228114ED3009B5451 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD06F128114ED3009B5451 /* Transaction.swift */; };
+		8ABD06F528116052009B5451 /* TransacrionWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD06F328116052009B5451 /* TransacrionWindow.swift */; };
+		8ABD06F628116052009B5451 /* TransacrionWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ABD06F428116052009B5451 /* TransacrionWindow.xib */; };
+		8ABD06F9281162AB009B5451 /* SendTransactionWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD06F7281162AB009B5451 /* SendTransactionWindow.swift */; };
+		8ABD06FA281162AB009B5451 /* SendTransactionWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ABD06F8281162AB009B5451 /* SendTransactionWindow.xib */; };
+		8AC75E2E280D6E2F009A5FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E2D280D6E2F009A5FF7 /* AppDelegate.swift */; };
+		8AC75E30280D6E2F009A5FF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E2F280D6E2F009A5FF7 /* ViewController.swift */; };
+		8AC75E32280D6E30009A5FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E31280D6E30009A5FF7 /* Assets.xcassets */; };
+		8AC75E35280D6E30009A5FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E33280D6E30009A5FF7 /* Main.storyboard */; };
+		8AC75E3E280D7021009A5FF7 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E3C280D7021009A5FF7 /* MainWindow.swift */; };
+		8AC75E3F280D7021009A5FF7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E3D280D7021009A5FF7 /* MainWindow.xib */; };
+		8AC75E42280D71F9009A5FF7 /* LogInWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E40280D71F9009A5FF7 /* LogInWindow.swift */; };
+		8AC75E43280D71F9009A5FF7 /* LogInWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E41280D71F9009A5FF7 /* LogInWindow.xib */; };
+		8AC75E47280D72C6009A5FF7 /* SignUpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E45280D72C6009A5FF7 /* SignUpWindow.swift */; };
+		8AC75E48280D72C6009A5FF7 /* SignUpWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E46280D72C6009A5FF7 /* SignUpWindow.xib */; };
+		8AC75E4B280D74EE009A5FF7 /* AdminAccountWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E49280D74EE009A5FF7 /* AdminAccountWindow.swift */; };
+		8AC75E4C280D74EE009A5FF7 /* AdminAccountWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E4A280D74EE009A5FF7 /* AdminAccountWindow.xib */; };
+		8AC75E4F280D7547009A5FF7 /* ClientAccountWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E4D280D7547009A5FF7 /* ClientAccountWindow.swift */; };
+		8AC75E50280D7547009A5FF7 /* ClientAccountWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E4E280D7547009A5FF7 /* ClientAccountWindow.xib */; };
+		8AC75E53280D75FD009A5FF7 /* SpecialistAccountWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E51280D75FD009A5FF7 /* SpecialistAccountWindow.swift */; };
+		8AC75E54280D75FD009A5FF7 /* SpecialistAccountWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E52280D75FD009A5FF7 /* SpecialistAccountWindow.xib */; };
+		8AC75E57280D7671009A5FF7 /* ManagerAccountWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E55280D7671009A5FF7 /* ManagerAccountWindow.swift */; };
+		8AC75E58280D7671009A5FF7 /* ManagerAccountWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E56280D7671009A5FF7 /* ManagerAccountWindow.xib */; };
+		8AC75E5B280D7712009A5FF7 /* OperatoAccountWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E59280D7712009A5FF7 /* OperatoAccountWindow.swift */; };
+		8AC75E5C280D7712009A5FF7 /* OperatoAccountWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E5A280D7712009A5FF7 /* OperatoAccountWindow.xib */; };
+		8AC75E5F280D7778009A5FF7 /* AccountsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E5D280D7778009A5FF7 /* AccountsWindow.swift */; };
+		8AC75E60280D7778009A5FF7 /* AccountsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E5E280D7778009A5FF7 /* AccountsWindow.xib */; };
+		8AC75E63280D78F4009A5FF7 /* CreditsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E61280D78F4009A5FF7 /* CreditsWindow.swift */; };
+		8AC75E64280D78F4009A5FF7 /* CreditsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E62280D78F4009A5FF7 /* CreditsWindow.xib */; };
+		8AC75E6C280D7EEA009A5FF7 /* SalaryProjectsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E6A280D7EEA009A5FF7 /* SalaryProjectsWindow.swift */; };
+		8AC75E6D280D7EEA009A5FF7 /* SalaryProjectsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E6B280D7EEA009A5FF7 /* SalaryProjectsWindow.xib */; };
+		8AC75E70280D7F66009A5FF7 /* InfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E6E280D7F66009A5FF7 /* InfoWindow.swift */; };
+		8AC75E71280D7F66009A5FF7 /* InfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E6F280D7F66009A5FF7 /* InfoWindow.xib */; };
+		8AC75E74280D8001009A5FF7 /* ActionsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E72280D8001009A5FF7 /* ActionsWindow.swift */; };
+		8AC75E75280D8001009A5FF7 /* ActionsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E73280D8001009A5FF7 /* ActionsWindow.xib */; };
+		8AC75E78280D80AD009A5FF7 /* LogsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E76280D80AD009A5FF7 /* LogsWindow.swift */; };
+		8AC75E79280D80AD009A5FF7 /* LogsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E77280D80AD009A5FF7 /* LogsWindow.xib */; };
+		8AC75E7C280D81A6009A5FF7 /* JSONDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E7B280D81A6009A5FF7 /* JSONDatabase.swift */; };
+		8AC75E7F280D86DE009A5FF7 /* RootWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E7D280D86DE009A5FF7 /* RootWindowController.swift */; };
+		8AC75E80280D86DE009A5FF7 /* RootWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E7E280D86DE009A5FF7 /* RootWindowController.xib */; };
+		8AC75E82280D8A8A009A5FF7 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC75E81280D8A8A009A5FF7 /* Structs.swift */; };
+		8AC75E84280D8C63009A5FF7 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AC75E83280D8B2D009A5FF7 /* Data.json */; };
+		8AFE95A22810205500229C66 /* AddCreditRequestFromClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE95A12810205500229C66 /* AddCreditRequestFromClient.swift */; };
+		8AFE95A72810484900229C66 /* LogWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE95A52810484900229C66 /* LogWindow.swift */; };
+		8AFE95A82810484900229C66 /* LogWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFE95A62810484900229C66 /* LogWindow.xib */; };
+		8AFE95AB2810759B00229C66 /* AddInstallmentRequestFromClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE95A92810759B00229C66 /* AddInstallmentRequestFromClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A20EED928108CC00080A79D /* InstallmentWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallmentWindow.swift; sourceTree = "<group>"; };
+		8A20EEDA28108CC00080A79D /* InstallmentWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstallmentWindow.xib; sourceTree = "<group>"; };
+		8A20EEDD2810D59D0080A79D /* AddSalaryProjectRequestFromClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSalaryProjectRequestFromClient.swift; sourceTree = "<group>"; };
+		8A8FB3AA280E9203001B462F /* ClientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientModel.swift; sourceTree = "<group>"; };
+		8A8FB3AC280E9294001B462F /* OperatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorModel.swift; sourceTree = "<group>"; };
+		8A8FB3AF280E92DE001B462F /* PRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRequest.swift; sourceTree = "<group>"; };
+		8A8FB3B1280E9343001B462F /* ManagerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerModel.swift; sourceTree = "<group>"; };
+		8A8FB3B3280E9399001B462F /* PModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PModel.swift; sourceTree = "<group>"; };
+		8A8FB3B5280E941E001B462F /* CompanySpecialistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanySpecialistModel.swift; sourceTree = "<group>"; };
+		8A8FB3B7280E9484001B462F /* AdminModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminModel.swift; sourceTree = "<group>"; };
+		8A8FB3BD280E9832001B462F /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		8A8FB3C0280EA4B2001B462F /* AddAccountRequestFromClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountRequestFromClient.swift; sourceTree = "<group>"; };
+		8A8FB3C2280EBC21001B462F /* RegistrationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationRequest.swift; sourceTree = "<group>"; };
+		8A8FB3C4280EC1CA001B462F /* CloseAccountRequestFromClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseAccountRequestFromClient.swift; sourceTree = "<group>"; };
+		8ABD06E328113479009B5451 /* SalaryProjectRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryProjectRequest.swift; sourceTree = "<group>"; };
+		8ABD06E528113569009B5451 /* SalaryProjectRequestWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryProjectRequestWindow.swift; sourceTree = "<group>"; };
+		8ABD06E628113569009B5451 /* SalaryProjectRequestWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SalaryProjectRequestWindow.xib; sourceTree = "<group>"; };
+		8ABD06E928113C29009B5451 /* AddAccountRequestFromCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountRequestFromCompany.swift; sourceTree = "<group>"; };
+		8ABD06EB281140AF009B5451 /* CloseAccountRequestFromCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseAccountRequestFromCompany.swift; sourceTree = "<group>"; };
+		8ABD06ED2811441B009B5451 /* AddSalaryProjectWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSalaryProjectWindow.swift; sourceTree = "<group>"; };
+		8ABD06EE2811441B009B5451 /* AddSalaryProjectWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddSalaryProjectWindow.xib; sourceTree = "<group>"; };
+		8ABD06F128114ED3009B5451 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		8ABD06F328116052009B5451 /* TransacrionWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacrionWindow.swift; sourceTree = "<group>"; };
+		8ABD06F428116052009B5451 /* TransacrionWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransacrionWindow.xib; sourceTree = "<group>"; };
+		8ABD06F7281162AB009B5451 /* SendTransactionWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTransactionWindow.swift; sourceTree = "<group>"; };
+		8ABD06F8281162AB009B5451 /* SendTransactionWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendTransactionWindow.xib; sourceTree = "<group>"; };
+		8AC75E2A280D6E2F009A5FF7 /* BankSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC75E2D280D6E2F009A5FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AC75E2F280D6E2F009A5FF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AC75E31280D6E30009A5FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AC75E34280D6E30009A5FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AC75E36280D6E30009A5FF7 /* BankSystem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BankSystem.entitlements; sourceTree = "<group>"; };
+		8AC75E3C280D7021009A5FF7 /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		8AC75E3D280D7021009A5FF7 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		8AC75E40280D71F9009A5FF7 /* LogInWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInWindow.swift; sourceTree = "<group>"; };
+		8AC75E41280D71F9009A5FF7 /* LogInWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogInWindow.xib; sourceTree = "<group>"; };
+		8AC75E45280D72C6009A5FF7 /* SignUpWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWindow.swift; sourceTree = "<group>"; };
+		8AC75E46280D72C6009A5FF7 /* SignUpWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpWindow.xib; sourceTree = "<group>"; };
+		8AC75E49280D74EE009A5FF7 /* AdminAccountWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAccountWindow.swift; sourceTree = "<group>"; };
+		8AC75E4A280D74EE009A5FF7 /* AdminAccountWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdminAccountWindow.xib; sourceTree = "<group>"; };
+		8AC75E4D280D7547009A5FF7 /* ClientAccountWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientAccountWindow.swift; sourceTree = "<group>"; };
+		8AC75E4E280D7547009A5FF7 /* ClientAccountWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClientAccountWindow.xib; sourceTree = "<group>"; };
+		8AC75E51280D75FD009A5FF7 /* SpecialistAccountWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistAccountWindow.swift; sourceTree = "<group>"; };
+		8AC75E52280D75FD009A5FF7 /* SpecialistAccountWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpecialistAccountWindow.xib; sourceTree = "<group>"; };
+		8AC75E55280D7671009A5FF7 /* ManagerAccountWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerAccountWindow.swift; sourceTree = "<group>"; };
+		8AC75E56280D7671009A5FF7 /* ManagerAccountWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManagerAccountWindow.xib; sourceTree = "<group>"; };
+		8AC75E59280D7712009A5FF7 /* OperatoAccountWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatoAccountWindow.swift; sourceTree = "<group>"; };
+		8AC75E5A280D7712009A5FF7 /* OperatoAccountWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OperatoAccountWindow.xib; sourceTree = "<group>"; };
+		8AC75E5D280D7778009A5FF7 /* AccountsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsWindow.swift; sourceTree = "<group>"; };
+		8AC75E5E280D7778009A5FF7 /* AccountsWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountsWindow.xib; sourceTree = "<group>"; };
+		8AC75E61280D78F4009A5FF7 /* CreditsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsWindow.swift; sourceTree = "<group>"; };
+		8AC75E62280D78F4009A5FF7 /* CreditsWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreditsWindow.xib; sourceTree = "<group>"; };
+		8AC75E6A280D7EEA009A5FF7 /* SalaryProjectsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryProjectsWindow.swift; sourceTree = "<group>"; };
+		8AC75E6B280D7EEA009A5FF7 /* SalaryProjectsWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SalaryProjectsWindow.xib; sourceTree = "<group>"; };
+		8AC75E6E280D7F66009A5FF7 /* InfoWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWindow.swift; sourceTree = "<group>"; };
+		8AC75E6F280D7F66009A5FF7 /* InfoWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoWindow.xib; sourceTree = "<group>"; };
+		8AC75E72280D8001009A5FF7 /* ActionsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsWindow.swift; sourceTree = "<group>"; };
+		8AC75E73280D8001009A5FF7 /* ActionsWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionsWindow.xib; sourceTree = "<group>"; };
+		8AC75E76280D80AD009A5FF7 /* LogsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsWindow.swift; sourceTree = "<group>"; };
+		8AC75E77280D80AD009A5FF7 /* LogsWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogsWindow.xib; sourceTree = "<group>"; };
+		8AC75E7B280D81A6009A5FF7 /* JSONDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDatabase.swift; sourceTree = "<group>"; };
+		8AC75E7D280D86DE009A5FF7 /* RootWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWindowController.swift; sourceTree = "<group>"; };
+		8AC75E7E280D86DE009A5FF7 /* RootWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootWindowController.xib; sourceTree = "<group>"; };
+		8AC75E81280D8A8A009A5FF7 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		8AC75E83280D8B2D009A5FF7 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		8AFE95A12810205500229C66 /* AddCreditRequestFromClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCreditRequestFromClient.swift; sourceTree = "<group>"; };
+		8AFE95A52810484900229C66 /* LogWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogWindow.swift; sourceTree = "<group>"; };
+		8AFE95A62810484900229C66 /* LogWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogWindow.xib; sourceTree = "<group>"; };
+		8AFE95A92810759B00229C66 /* AddInstallmentRequestFromClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInstallmentRequestFromClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AC75E27280D6E2F009A5FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A8FB3A9280E91F0001B462F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A8FB3B7280E9484001B462F /* AdminModel.swift */,
+				8A8FB3AA280E9203001B462F /* ClientModel.swift */,
+				8A8FB3B5280E941E001B462F /* CompanySpecialistModel.swift */,
+				8A8FB3BD280E9832001B462F /* LoginModel.swift */,
+				8A8FB3B1280E9343001B462F /* ManagerModel.swift */,
+				8A8FB3AC280E9294001B462F /* OperatorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A8FB3AE280E92D3001B462F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8A8FB3B3280E9399001B462F /* PModel.swift */,
+				8A8FB3AF280E92DE001B462F /* PRequest.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8A8FB3B9280E9540001B462F /* UserControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AC75E49280D74EE009A5FF7 /* AdminAccountWindow.swift */,
+				8AC75E4D280D7547009A5FF7 /* ClientAccountWindow.swift */,
+				8AC75E55280D7671009A5FF7 /* ManagerAccountWindow.swift */,
+				8AC75E59280D7712009A5FF7 /* OperatoAccountWindow.swift */,
+				8AC75E51280D75FD009A5FF7 /* SpecialistAccountWindow.swift */,
+			);
+			path = UserControllers;
+			sourceTree = "<group>";
+		};
+		8A8FB3BA280E954C001B462F /* PresentationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AC75E5D280D7778009A5FF7 /* AccountsWindow.swift */,
+				8AC75E72280D8001009A5FF7 /* ActionsWindow.swift */,
+				8AC75E61280D78F4009A5FF7 /* CreditsWindow.swift */,
+				8AC75E6E280D7F66009A5FF7 /* InfoWindow.swift */,
+				8A20EED928108CC00080A79D /* InstallmentWindow.swift */,
+				8AC75E40280D71F9009A5FF7 /* LogInWindow.swift */,
+				8AC75E76280D80AD009A5FF7 /* LogsWindow.swift */,
+				8AFE95A52810484900229C66 /* LogWindow.swift */,
+				8AC75E3C280D7021009A5FF7 /* MainWindow.swift */,
+				8AC75E6A280D7EEA009A5FF7 /* SalaryProjectsWindow.swift */,
+				8AC75E45280D72C6009A5FF7 /* SignUpWindow.swift */,
+				8ABD06E528113569009B5451 /* SalaryProjectRequestWindow.swift */,
+				8ABD06ED2811441B009B5451 /* AddSalaryProjectWindow.swift */,
+				8ABD06F328116052009B5451 /* TransacrionWindow.swift */,
+				8ABD06F7281162AB009B5451 /* SendTransactionWindow.swift */,
+			);
+			path = PresentationControllers;
+			sourceTree = "<group>";
+		};
+		8A8FB3BB280E95A1001B462F /* UserViews */ = {
+			isa = PBXGroup;
+			children = (
+				8AC75E4A280D74EE009A5FF7 /* AdminAccountWindow.xib */,
+				8AC75E4E280D7547009A5FF7 /* ClientAccountWindow.xib */,
+				8AC75E56280D7671009A5FF7 /* ManagerAccountWindow.xib */,
+				8AC75E5A280D7712009A5FF7 /* OperatoAccountWindow.xib */,
+				8AC75E52280D75FD009A5FF7 /* SpecialistAccountWindow.xib */,
+			);
+			path = UserViews;
+			sourceTree = "<group>";
+		};
+		8A8FB3BC280E95B7001B462F /* PresentationViews */ = {
+			isa = PBXGroup;
+			children = (
+				8ABD06F8281162AB009B5451 /* SendTransactionWindow.xib */,
+				8ABD06F428116052009B5451 /* TransacrionWindow.xib */,
+				8ABD06EE2811441B009B5451 /* AddSalaryProjectWindow.xib */,
+				8ABD06E628113569009B5451 /* SalaryProjectRequestWindow.xib */,
+				8AC75E5E280D7778009A5FF7 /* AccountsWindow.xib */,
+				8AC75E73280D8001009A5FF7 /* ActionsWindow.xib */,
+				8AC75E62280D78F4009A5FF7 /* CreditsWindow.xib */,
+				8AC75E6F280D7F66009A5FF7 /* InfoWindow.xib */,
+				8A20EEDA28108CC00080A79D /* InstallmentWindow.xib */,
+				8AC75E41280D71F9009A5FF7 /* LogInWindow.xib */,
+				8AC75E77280D80AD009A5FF7 /* LogsWindow.xib */,
+				8AFE95A62810484900229C66 /* LogWindow.xib */,
+				8AC75E3D280D7021009A5FF7 /* MainWindow.xib */,
+				8AC75E6B280D7EEA009A5FF7 /* SalaryProjectsWindow.xib */,
+				8AC75E46280D72C6009A5FF7 /* SignUpWindow.xib */,
+			);
+			path = PresentationViews;
+			sourceTree = "<group>";
+		};
+		8A8FB3BF280EA49C001B462F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				8A8FB3C0280EA4B2001B462F /* AddAccountRequestFromClient.swift */,
+				8AFE95A12810205500229C66 /* AddCreditRequestFromClient.swift */,
+				8AFE95A92810759B00229C66 /* AddInstallmentRequestFromClient.swift */,
+				8A20EEDD2810D59D0080A79D /* AddSalaryProjectRequestFromClient.swift */,
+				8A8FB3C4280EC1CA001B462F /* CloseAccountRequestFromClient.swift */,
+				8A8FB3C2280EBC21001B462F /* RegistrationRequest.swift */,
+				8ABD06E328113479009B5451 /* SalaryProjectRequest.swift */,
+				8ABD06E928113C29009B5451 /* AddAccountRequestFromCompany.swift */,
+				8ABD06EB281140AF009B5451 /* CloseAccountRequestFromCompany.swift */,
+				8ABD06F128114ED3009B5451 /* Transaction.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		8AC75E21280D6E2F009A5FF7 = {
+			isa = PBXGroup;
+			children = (
+				8AC75E2C280D6E2F009A5FF7 /* BankSystem */,
+				8AC75E2B280D6E2F009A5FF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AC75E2B280D6E2F009A5FF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AC75E2A280D6E2F009A5FF7 /* BankSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AC75E2C280D6E2F009A5FF7 /* BankSystem */ = {
+			isa = PBXGroup;
+			children = (
+				8A8FB3BF280EA49C001B462F /* Requests */,
+				8A8FB3AE280E92D3001B462F /* Protocols */,
+				8A8FB3A9280E91F0001B462F /* Models */,
+				8AC75E7A280D8191009A5FF7 /* Gateway */,
+				8AC75E65280D7D5E009A5FF7 /* ViewControllers */,
+				8AC75E44280D7209009A5FF7 /* Windows */,
+				8AC75E2D280D6E2F009A5FF7 /* AppDelegate.swift */,
+				8AC75E2F280D6E2F009A5FF7 /* ViewController.swift */,
+				8AC75E31280D6E30009A5FF7 /* Assets.xcassets */,
+				8AC75E33280D6E30009A5FF7 /* Main.storyboard */,
+				8AC75E36280D6E30009A5FF7 /* BankSystem.entitlements */,
+			);
+			path = BankSystem;
+			sourceTree = "<group>";
+		};
+		8AC75E44280D7209009A5FF7 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				8AC75E7E280D86DE009A5FF7 /* RootWindowController.xib */,
+				8A8FB3BC280E95B7001B462F /* PresentationViews */,
+				8A8FB3BB280E95A1001B462F /* UserViews */,
+			);
+			path = Windows;
+			sourceTree = "<group>";
+		};
+		8AC75E65280D7D5E009A5FF7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AC75E7D280D86DE009A5FF7 /* RootWindowController.swift */,
+				8A8FB3BA280E954C001B462F /* PresentationControllers */,
+				8A8FB3B9280E9540001B462F /* UserControllers */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8AC75E7A280D8191009A5FF7 /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				8AC75E83280D8B2D009A5FF7 /* Data.json */,
+				8AC75E7B280D81A6009A5FF7 /* JSONDatabase.swift */,
+				8AC75E81280D8A8A009A5FF7 /* Structs.swift */,
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AC75E29280D6E2F009A5FF7 /* BankSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AC75E39280D6E30009A5FF7 /* Build configuration list for PBXNativeTarget "BankSystem" */;
+			buildPhases = (
+				8AC75E26280D6E2F009A5FF7 /* Sources */,
+				8AC75E27280D6E2F009A5FF7 /* Frameworks */,
+				8AC75E28280D6E2F009A5FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankSystem;
+			productName = BankSystem;
+			productReference = 8AC75E2A280D6E2F009A5FF7 /* BankSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AC75E22280D6E2F009A5FF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					8AC75E29280D6E2F009A5FF7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 8AC75E25280D6E2F009A5FF7 /* Build configuration list for PBXProject "BankSystem" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AC75E21280D6E2F009A5FF7;
+			productRefGroup = 8AC75E2B280D6E2F009A5FF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AC75E29280D6E2F009A5FF7 /* BankSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AC75E28280D6E2F009A5FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC75E64280D78F4009A5FF7 /* CreditsWindow.xib in Resources */,
+				8ABD06F02811441B009B5451 /* AddSalaryProjectWindow.xib in Resources */,
+				8AC75E5C280D7712009A5FF7 /* OperatoAccountWindow.xib in Resources */,
+				8AC75E32280D6E30009A5FF7 /* Assets.xcassets in Resources */,
+				8AC75E4C280D74EE009A5FF7 /* AdminAccountWindow.xib in Resources */,
+				8AC75E54280D75FD009A5FF7 /* SpecialistAccountWindow.xib in Resources */,
+				8AC75E43280D71F9009A5FF7 /* LogInWindow.xib in Resources */,
+				8AC75E58280D7671009A5FF7 /* ManagerAccountWindow.xib in Resources */,
+				8AC75E48280D72C6009A5FF7 /* SignUpWindow.xib in Resources */,
+				8AC75E6D280D7EEA009A5FF7 /* SalaryProjectsWindow.xib in Resources */,
+				8AC75E60280D7778009A5FF7 /* AccountsWindow.xib in Resources */,
+				8AC75E75280D8001009A5FF7 /* ActionsWindow.xib in Resources */,
+				8AFE95A82810484900229C66 /* LogWindow.xib in Resources */,
+				8AC75E71280D7F66009A5FF7 /* InfoWindow.xib in Resources */,
+				8ABD06E828113569009B5451 /* SalaryProjectRequestWindow.xib in Resources */,
+				8AC75E35280D6E30009A5FF7 /* Main.storyboard in Resources */,
+				8AC75E3F280D7021009A5FF7 /* MainWindow.xib in Resources */,
+				8AC75E84280D8C63009A5FF7 /* Data.json in Resources */,
+				8ABD06FA281162AB009B5451 /* SendTransactionWindow.xib in Resources */,
+				8AC75E80280D86DE009A5FF7 /* RootWindowController.xib in Resources */,
+				8AC75E79280D80AD009A5FF7 /* LogsWindow.xib in Resources */,
+				8ABD06F628116052009B5451 /* TransacrionWindow.xib in Resources */,
+				8A20EEDC28108CC00080A79D /* InstallmentWindow.xib in Resources */,
+				8AC75E50280D7547009A5FF7 /* ClientAccountWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AC75E26280D6E2F009A5FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC75E57280D7671009A5FF7 /* ManagerAccountWindow.swift in Sources */,
+				8A8FB3BE280E9832001B462F /* LoginModel.swift in Sources */,
+				8A8FB3AB280E9204001B462F /* ClientModel.swift in Sources */,
+				8AC75E30280D6E2F009A5FF7 /* ViewController.swift in Sources */,
+				8A8FB3B8280E9484001B462F /* AdminModel.swift in Sources */,
+				8A8FB3AD280E9294001B462F /* OperatorModel.swift in Sources */,
+				8AC75E7F280D86DE009A5FF7 /* RootWindowController.swift in Sources */,
+				8AC75E42280D71F9009A5FF7 /* LogInWindow.swift in Sources */,
+				8AC75E5F280D7778009A5FF7 /* AccountsWindow.swift in Sources */,
+				8A20EEDE2810D59D0080A79D /* AddSalaryProjectRequestFromClient.swift in Sources */,
+				8AC75E47280D72C6009A5FF7 /* SignUpWindow.swift in Sources */,
+				8AC75E3E280D7021009A5FF7 /* MainWindow.swift in Sources */,
+				8A8FB3C1280EA4B3001B462F /* AddAccountRequestFromClient.swift in Sources */,
+				8ABD06EA28113C29009B5451 /* AddAccountRequestFromCompany.swift in Sources */,
+				8ABD06E42811347A009B5451 /* SalaryProjectRequest.swift in Sources */,
+				8A8FB3C3280EBC21001B462F /* RegistrationRequest.swift in Sources */,
+				8A8FB3B0280E92DE001B462F /* PRequest.swift in Sources */,
+				8AC75E7C280D81A6009A5FF7 /* JSONDatabase.swift in Sources */,
+				8A20EEDB28108CC00080A79D /* InstallmentWindow.swift in Sources */,
+				8ABD06EF2811441B009B5451 /* AddSalaryProjectWindow.swift in Sources */,
+				8ABD06F9281162AB009B5451 /* SendTransactionWindow.swift in Sources */,
+				8AC75E2E280D6E2F009A5FF7 /* AppDelegate.swift in Sources */,
+				8AC75E74280D8001009A5FF7 /* ActionsWindow.swift in Sources */,
+				8ABD06E728113569009B5451 /* SalaryProjectRequestWindow.swift in Sources */,
+				8AC75E4B280D74EE009A5FF7 /* AdminAccountWindow.swift in Sources */,
+				8ABD06F528116052009B5451 /* TransacrionWindow.swift in Sources */,
+				8AFE95A72810484900229C66 /* LogWindow.swift in Sources */,
+				8A8FB3C5280EC1CA001B462F /* CloseAccountRequestFromClient.swift in Sources */,
+				8AC75E63280D78F4009A5FF7 /* CreditsWindow.swift in Sources */,
+				8A8FB3B4280E9399001B462F /* PModel.swift in Sources */,
+				8AFE95AB2810759B00229C66 /* AddInstallmentRequestFromClient.swift in Sources */,
+				8AC75E82280D8A8A009A5FF7 /* Structs.swift in Sources */,
+				8AFE95A22810205500229C66 /* AddCreditRequestFromClient.swift in Sources */,
+				8A8FB3B2280E9343001B462F /* ManagerModel.swift in Sources */,
+				8AC75E53280D75FD009A5FF7 /* SpecialistAccountWindow.swift in Sources */,
+				8ABD06EC281140AF009B5451 /* CloseAccountRequestFromCompany.swift in Sources */,
+				8AC75E78280D80AD009A5FF7 /* LogsWindow.swift in Sources */,
+				8AC75E5B280D7712009A5FF7 /* OperatoAccountWindow.swift in Sources */,
+				8AC75E4F280D7547009A5FF7 /* ClientAccountWindow.swift in Sources */,
+				8AC75E6C280D7EEA009A5FF7 /* SalaryProjectsWindow.swift in Sources */,
+				8A8FB3B6280E941E001B462F /* CompanySpecialistModel.swift in Sources */,
+				8ABD06F228114ED3009B5451 /* Transaction.swift in Sources */,
+				8AC75E70280D7F66009A5FF7 /* InfoWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8AC75E33280D6E30009A5FF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC75E34280D6E30009A5FF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AC75E37280D6E30009A5FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AC75E38280D6E30009A5FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8AC75E3A280D6E30009A5FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BankSystem/BankSystem.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KRCYYJC5C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BankSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8AC75E3B280D6E30009A5FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BankSystem/BankSystem.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KRCYYJC5C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BankSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AC75E25280D6E2F009A5FF7 /* Build configuration list for PBXProject "BankSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC75E37280D6E30009A5FF7 /* Debug */,
+				8AC75E38280D6E30009A5FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AC75E39280D6E30009A5FF7 /* Build configuration list for PBXNativeTarget "BankSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC75E3A280D6E30009A5FF7 /* Debug */,
+				8AC75E3B280D6E30009A5FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AC75E22280D6E2F009A5FF7 /* Project object */;
+}
